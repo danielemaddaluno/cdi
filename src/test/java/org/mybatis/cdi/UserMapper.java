@@ -22,4 +22,5 @@ public interface UserMapper {
 
   void insertUser(User user);
 
+  Integer countUsers();
 }

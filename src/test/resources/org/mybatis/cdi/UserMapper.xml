@@ -29,5 +29,9 @@
     <insert id="insertUser">
         insert into users values(#{id}, #{name})
     </insert>
+    
+    <select id="countUsers" resultType="java.lang.Integer">
+        select count(*) from users
+    </select>
 
 </mapper>
